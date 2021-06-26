@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bismillah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bismillah.Designer.cs">
+      <DependentUpon>bismillah.cs</DependentUpon>
+    </Compile>
     <Compile Include="Config.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -61,6 +67,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="bismillah.resx">
+      <DependentUpon>bismillah.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login2.resx">
       <DependentUpon>login2.cs</DependentUpon>
     </EmbeddedResource>
