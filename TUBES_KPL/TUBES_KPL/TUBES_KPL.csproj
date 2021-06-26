@@ -59,6 +59,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlagi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlagi.Designer.cs">
+      <DependentUpon>Formlagi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jual.Designer.cs">
+      <DependentUpon>Jual.cs</DependentUpon>
+    </Compile>
     <Compile Include="login2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +81,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="bismillah.resx">
       <DependentUpon>bismillah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlagi.resx">
+      <DependentUpon>Formlagi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login2.resx">
       <DependentUpon>login2.cs</DependentUpon>
