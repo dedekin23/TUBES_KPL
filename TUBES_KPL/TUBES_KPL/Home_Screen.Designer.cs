@@ -39,6 +39,7 @@ namespace TUBES_KPL
             // 
             this.parkButton.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.parkButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.parkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.parkButton.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.parkButton.ForeColor = System.Drawing.Color.White;
             this.parkButton.Location = new System.Drawing.Point(81, 245);
@@ -51,6 +52,7 @@ namespace TUBES_KPL
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(81, 400);
@@ -63,6 +65,7 @@ namespace TUBES_KPL
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.DarkRed;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(81, 555);
@@ -87,6 +90,7 @@ namespace TUBES_KPL
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(398, 857);
+            this.ControlBox = false;
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
