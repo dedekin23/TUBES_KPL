@@ -37,7 +37,7 @@ namespace TUBES_KPL
             // 
             // parkButton
             // 
-            this.parkButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.parkButton.BackColor = System.Drawing.Color.Cyan;
             this.parkButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.parkButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.parkButton.Font = new System.Drawing.Font("Poppins", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
