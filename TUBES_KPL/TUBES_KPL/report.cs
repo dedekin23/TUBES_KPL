@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TUBES_KPL
 {
-    public partial class Form1 : Form
+    public partial class report : Form
     {
-        public Form1()
+        public report()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
